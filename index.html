@@ -10,6 +10,8 @@
 }
 body {
 	font-family: 'Mate', serif;
+	font-size: 24px;
+	letter-spacing: 0.05em;
 }
 #container {
 	padding: 20px;
@@ -17,29 +19,28 @@ body {
 	width: 700px;
 }
 h1 {
-	font-family: "LeagueGothic";
+/*	font-family: "LeagueGothic"; */
 	color: red;
-}
-ul {
-	list-decoration-type: square;
+	font-size: 72px;
+	letter-spacing: 0.05em;
 }
 a {
 	color: red;
 }
-a:visited {
-	color: #990000;
+pre {
+	font-weight: bold;
 }
   </style>
 </head>
 <body>
 <div id="container">
   <h1>bryantcutler.com</h1>
-  <p>You can find me here:</p>
-  <ul>
-    <li><a href="https://twitter.com/bryantcutler">bryantcutler@ on twitter</a></li>
-    <li><a href="https://facebook.com/bryantcutler">bryantcutler on facebook</a></li>
-    <li><a href="https://us.battle.net/wow/en/character/windrunner/Zokrates/simple">Zokrates on Windrunner (WoW)</a></li>
-  </ul>
+  <pre>{
+    "employer":"<a href="https://aws.amazon.com">aws</a>",
+    "twitter": "<a href="https://twitter.com/bryantcutler">@bryantcutler</a>",
+    "facebook": "<a href="https://facebook.com/bryantcutler">bryantcutler</a>",
+    "wow":"<a href="https://us.battle.net/wow/en/character/windrunner/Zokrates/simple">Zokrates@Windrunner</a>"
+}</pre>
 </div>
 </body>
 </html>
